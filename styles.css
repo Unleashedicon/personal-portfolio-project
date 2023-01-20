@@ -126,18 +126,22 @@ body {
     background-position: 240px 200px;
   }
 
-  .socials-container {
-    top: 400px;
-    left: 17px;
+  .socials-container ul {
+    display: flex;
+    position: absolute;
+    top: 43px;
+    left: 4px;
     margin: 0;
     flex-direction: row;
+    list-style-type: none;
+    padding-left: 0;
   }
 
-  .socials-container a {
+  .socials-container ul li a {
     margin-left: 20px;
   }
 
-  .socials-container a img {
+  .socials-container li a img {
     width: 10px;
   }
 
@@ -200,18 +204,6 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     line-height: 5px;
-  }
-
-  .top-left-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-
-  .top-right-image {
-    position: absolute;
-    top: 0;
-    right: 0;
   }
 
   .dropdown-menu {
