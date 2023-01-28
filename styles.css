@@ -138,10 +138,6 @@ header nav {
     background-position: 240px 200px;
   }
 
-  .first-last-name {
-    display: none;
-  }
-
   .contact-form {
     position: absolute;
     top: 6185px;
@@ -850,20 +846,6 @@ header nav {
     border: none;
   }
 
-  .fullname {
-    display: none;
-  }
-
-  .first-last-name {
-    display: flex;
-    flex-direction: row;
-    text-align: left;
-    gap: 10px;
-    width: 100%;
-    font-size: 15px;
-    line-height: 24px;
-  }
-
   footer {
     position: absolute;
     width: 100%;
@@ -1475,7 +1457,33 @@ header nav {
     display: none;
   }
 
-  .item-block1 {
+  .item2:hover h1,
+  .item2:hover p,
+  .item2:hover nav {
+    display: none;
+  }
+
+  .item3:hover h1,
+  .item3:hover p,
+  .item3:hover nav {
+    display: none;
+  }
+
+  .item4:hover h1,
+  .item4:hover p,
+  .item4:hover nav {
+    display: none;
+  }
+
+  .item5:hover h1,
+  .item5:hover p,
+  .item5:hover nav {
+    display: none;
+  }
+
+  .item6:hover h1,
+  .item6:hover p,
+  .item6:hover nav {
     display: none;
   }
 
