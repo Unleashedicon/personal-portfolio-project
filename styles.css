@@ -38,6 +38,26 @@ header nav {
   margin: 20px 0 20px 0;
 }
 
+.inside-name {
+  animation-name: kelvin;
+  animation-duration: 4s;
+  width: 92px;
+  height: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #fff;
+}
+
+@keyframes kelvin {
+  0% { transform: rotate(0deg); }
+  20% { transform: rotate(90deg); }
+  40% { transform: rotate(180deg); }
+  60% { transform: rotate(270deg); }
+  100% { transform: rotate(360deg); }
+}
+
 .nav-menu {
   display: flex;
   flex-direction: row;
@@ -69,16 +89,6 @@ header nav {
   font-size: 15px;
   line-height: 20px;
   text-decoration: none;
-}
-
-.inside-name {
-  width: 92px;
-  height: 20px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 20px;
-  color: #fff;
 }
 
 .section-container {
@@ -348,6 +358,14 @@ header nav {
 
   .image1 {
     display: none;
+  }
+
+  .image2 {
+    transition: transform 2s;
+  }
+
+  .image2:hover {
+    transform: scale(1.2);
   }
 
   .story {
@@ -1055,6 +1073,11 @@ header nav {
   .image1 {
     display: block;
     width: 50%;
+    transition: transform 4s;
+  }
+
+  .image1:hover {
+    transform: scale(0.5, 0.5);
   }
 
   .description-block {
