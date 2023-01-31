@@ -107,7 +107,7 @@ my project is a simple HTML and CSS page whose primary goal is is to master all 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [No live demo link for now]()
+- https://unleashedicon.github.io/personal-portfolio-project/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
