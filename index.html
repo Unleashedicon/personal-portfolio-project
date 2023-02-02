@@ -214,12 +214,9 @@
 <div class="contact-form">
     <h1>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h1>
   <form action="https://formspree.io/f/xbjedrnz" method="post">
-   <label style="display: none;" for="name">Enter Name</label>
-    <input type="text" id="name" name="name" maxlength="30" placeholder="Full name" title="please Enter full Name" class="fullname" required>
-    <label style="display: none;" for="email">Enter Email</label>
-    <input type="email" id="email" name="email" placeholder="Email address" title="Please Enter Email" required>
-    <label style="display: none;" for="message">Enter Message</label>
-    <textarea id="message" name="message" maxlength="500" rows="10" cols="30" placeholder="Enter text here" title="Please Enter Text Here" required></textarea>
+    <input type="text" id="name" name="name" maxlength="30" placeholder="Full name" aria-label="please Enter full Name" class="fullname" required>
+    <input type="email" id="email" name="email" placeholder="Email address" aria-label="Please Enter Email" required>
+    <textarea id="message" name="message" maxlength="500" rows="10" cols="30" placeholder="Enter text here" aria-label="Please Enter Text Here" required></textarea>
     <button type="submit">Get in touch</button>
 </form>
 </div>
