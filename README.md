@@ -109,6 +109,8 @@ my project is a simple HTML and CSS page whose primary goal is is to master all 
 
 - https://unleashedicon.github.io/personal-portfolio-project/
 
+## Video Walkthrough: https://www.loom.com/share/355b71553c7244fa8aa49ac28cf96b6a
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
