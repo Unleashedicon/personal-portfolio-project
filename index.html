@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kelvin's Portfolio</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-u2Qo5c5wL2fZ5m0z/rqZjLmZ9+vHjE/AqY0rU/QdugnfeE0k8zO6rU2qzUITjtWc6i1Kc2nh/gPmKv5fK/xJwg==" crossorigin="anonymous" >
-
+    <script src="styles.js"></script>
+    <script src="https://kit.fontawesome.com/0f56b98a6f.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="portfolio">
@@ -15,8 +15,11 @@
                 <h1 class="inside-name">Kelvin</h1>
 
             </div>
-            <nav>
-                <ul class="nav-menu">
+            <nav class="nav-menu">
+                <button class="close">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <ul>
                        <li><a href="#" class="item-home">Portfolio</a></li>
                         <li><a href="#" class="item-about">About</a></li>
                         <li><a href ="#"class="item-contact">Contact</a></li>
@@ -27,7 +30,9 @@
                     </ul>
                     </nav>
             <div>
-            <img src="images/Union.png" alt="union" class="dropdown-menu"> 
+                <button class="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </button>  
             </div>
         </header>
         <section class="section-container">
@@ -241,3 +246,4 @@
 </footer>
   </body>
   </html>
+
