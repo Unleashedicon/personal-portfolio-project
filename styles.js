@@ -1,9 +1,10 @@
-  const list = document.querySelector('.hamburger');
+  document.addEventListener('DOMContentLoaded', () => {
+  const ham = document.querySelector('.hamburger');
   const menu = document.querySelector('.nav-menu');
   const close = document.querySelector('.fa-solid.fa-xmark');
   const bars = document.querySelector('.fa-solid.fa-bars');
-});
-list.addEventListener('click', () => {
+
+  hamburger.addEventListener('click', () => {
     menu.classList.toggle('show');
     if (menu.classList.contains('show')) {
       bars.style.display = 'none';
@@ -33,3 +34,4 @@ list.addEventListener('click', () => {
       }
     });
   }
+});
