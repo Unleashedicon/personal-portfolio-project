@@ -1,4 +1,4 @@
-window.addEventListener('load', () => {
+document.addEventListener('DOMContentLoaded', () => {
   const hamburger = document.querySelector('.hamburger');
   const menu = document.querySelector('.nav-menu');
   const close = document.querySelector('.fa-solid.fa-xmark');
