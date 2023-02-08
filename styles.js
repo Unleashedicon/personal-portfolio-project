@@ -4,7 +4,7 @@
   const close = document.querySelector('.fa-solid.fa-xmark');
   const bars = document.querySelector('.fa-solid.fa-bars');
 
-  hamburger.addEventListener('click', () => {
+  ham.addEventListener('click', () => {
     menu.classList.toggle('show');
     if (menu.classList.contains('show')) {
       bars.style.display = 'none';
