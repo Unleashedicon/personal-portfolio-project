@@ -10,7 +10,7 @@ body {
   height: 125vh;
 }
 
-.portfolio {
+#portfolio {
   width: 100%;
   height: 125vh;
   left: 0;
@@ -135,7 +135,7 @@ header nav {
     display: flex;
   }
 
-  .contact-form {
+  #contact-form {
     position: absolute;
     top: 3774px;
     width: 900px;
@@ -151,7 +151,7 @@ header nav {
     gap: 24px;
   }
 
-  .contact-form h1 {
+  #contact-form h1 {
     width: 50%;
     height: auto;
     font-family: 'Inter', sans-serif;
@@ -163,7 +163,7 @@ header nav {
     color: #172b4d;
   }
 
-  .contact-form form {
+  #contact-form form {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -174,7 +174,7 @@ header nav {
     padding: 0;
   }
 
-  .contact-form form input {
+  #contact-form form input {
     width: 100%;
     height: 48px;
     border: 0;
@@ -188,7 +188,7 @@ header nav {
     padding-right: 16px;
   }
 
-  .contact-form form textarea {
+  #contact-form form textarea {
     width: 100%;
     height: 114px;
     background: #fbf8f7;
@@ -579,7 +579,7 @@ header nav {
     color: #fff;
   }
 
-  .about-me {
+  #about-me {
     position: absolute;
     width: 100%;
     height: 1195px;
@@ -935,7 +935,7 @@ header nav {
     height: 20px;
   }
 
-  .contact-form form button {
+  #contact-form form button {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -955,7 +955,7 @@ header nav {
     color: #fff;
   }
 
-  .contact-form form button:hover {
+  #contact-form form button:hover {
     background-color: #fff5e1;
     border: 1px solid #f55800;
     color: #f55800;
@@ -983,7 +983,7 @@ header nav {
     background-position: 240px 200px;
   }
 
-  .contact-form {
+  #contact-form {
     position: absolute;
     top: 6185px;
     width: 375px;
@@ -996,7 +996,7 @@ header nav {
     gap: 58px;
   }
 
-  .contact-form h1 {
+  #contact-form h1 {
     width: 327px;
     height: 216px;
     font-family: 'Inter', sans-serif;
@@ -1008,7 +1008,7 @@ header nav {
     color: #172b4d;
   }
 
-  .contact-form form {
+  #contact-form form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1018,7 +1018,7 @@ header nav {
     padding: 0;
   }
 
-  .contact-form form input {
+  #contact-form form input {
     width: 327px;
     height: 48px;
     border: 0;
@@ -1032,7 +1032,7 @@ header nav {
     padding-right: 16px;
   }
 
-  .contact-form form textarea {
+  #contact-form form textarea {
     width: 327px;
     height: 114px;
     background: #fbf8f7;
@@ -1110,7 +1110,8 @@ header nav {
   .nav-menu {
     display: none;
     background-color: #3c3a39;
-    position: absolute;
+    position: fixed;
+    overflow: hidden;
     top: 0;
     right: 0;
     bottom: 0;
@@ -1122,11 +1123,17 @@ header nav {
     opacity: 4;
   }
 
+  .item-email {
+    display: none;
+  }
+
   .nav-menu ul {
-    position: absolute;
+    position: fixed;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 327px;
+    height: 184px;
     align-items: left;
     text-align: center;
     left: 0;
@@ -1141,8 +1148,9 @@ header nav {
   .nav-menu ul li {
     display: block;
     height: 56px;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #6F6C6B;
     width: 100%;
+    padding: 7px;
     text-align: left;
   }
 
@@ -1155,6 +1163,7 @@ header nav {
     font-size: 32px;
     line-height: 44px;
     text-align: left;
+    color: #FFF5E1;
   }
 
   .socials-container ul {
@@ -1259,13 +1268,14 @@ header nav {
   }
 
   .close i::before {
-    color: #fff;
+    color: #67798E;
     font-size: 20px;
   }
 
   button.hamburger i::before {
     color: #fff;
-    font-size: 20px;
+    width: 18px;
+    height: 12px;
   }
 
   .title {
@@ -1542,7 +1552,7 @@ header nav {
     border: none;
   }
 
-  .about-me {
+  #about-me {
     position: absolute;
     width: 375px;
     height: 1751px;
@@ -1672,7 +1682,7 @@ header nav {
     width: 10px;
   }
 
-  .contact-form form button {
+  #contact-form form button {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1691,7 +1701,7 @@ header nav {
     color: #fff;
   }
 
-  .contact-form form button:hover {
+  #contact-form form button:hover {
     background-color: #fff5e1;
     border: 1px solid #f55800;
     color: #f55800;
