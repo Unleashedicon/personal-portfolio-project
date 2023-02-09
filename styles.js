@@ -25,8 +25,8 @@ document.addEventListener('DOMContentLoaded', () => {
   for (let i = 0; i < links.length; i += 1) {
     links[i].addEventListener('click', () => {
       if (window.matchMedia('(min-width:375px) and (max-width:768px)').matches) {
-        const sectionId = links[i].getAttribute('href');
-        const section = document.querySelector(sectionId);
+        const sectionclass = links[i].getAttribute('href');
+        const section = document.querySelector(sectionclass);
         section.scrollIntoView({ behavior: 'smooth' });
         menu.classList.remove('show');
         bars.style.display = 'block';
