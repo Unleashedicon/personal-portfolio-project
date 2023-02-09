@@ -135,73 +135,6 @@ header nav {
     display: flex;
   }
 
-  #contact-form {
-    position: absolute;
-    top: 3774px;
-    width: 900px;
-    height: 596px;
-    display: flex;
-    left: 100px;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    padding: 100px 0;
-    margin: 0;
-    gap: 24px;
-  }
-
-  #contact-form h1 {
-    width: 50%;
-    height: auto;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 44px;
-    text-align: left;
-    color: #172b4d;
-  }
-
-  #contact-form form {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 24px;
-    width: 60%;
-    height: 330px;
-    padding: 0;
-  }
-
-  #contact-form form input {
-    width: 100%;
-    height: 48px;
-    border: 0;
-    border-bottom: 1px solid #dbd8d7;
-    color: #979493;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-
-  #contact-form form textarea {
-    width: 100%;
-    height: 114px;
-    background: #fbf8f7;
-    padding: 12px;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
-    color: #3c3a39;
-    border: none;
-  }
-
   footer {
     position: absolute;
     width: 100%;
@@ -935,6 +868,73 @@ header nav {
     height: 20px;
   }
 
+  #contact-form {
+    position: absolute;
+    top: 3774px;
+    width: 900px;
+    height: 596px;
+    display: flex;
+    left: 100px;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 100px 0;
+    margin: 0;
+    gap: 24px;
+  }
+
+  #contact-form h1 {
+    width: 50%;
+    height: auto;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: left;
+    color: #172b4d;
+  }
+
+  #contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+    width: 60%;
+    height: 330px;
+    padding: 0;
+  }
+
+  #contact-form form input {
+    width: 100%;
+    height: 48px;
+    border: 0;
+    border-bottom: 1px solid #dbd8d7;
+    color: #979493;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  #contact-form form textarea {
+    width: 100%;
+    height: 114px;
+    background: #fbf8f7;
+    padding: 12px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #3c3a39;
+    border: none;
+  }
+
   #contact-form form button {
     display: flex;
     flex-direction: row;
@@ -981,69 +981,6 @@ header nav {
     background-image: url("images/Group.png");
     background-repeat: no-repeat;
     background-position: 240px 200px;
-  }
-
-  #contact-form {
-    position: absolute;
-    top: 6185px;
-    width: 375px;
-    height: 844px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 120px 0 120px;
-    text-align: center;
-    gap: 58px;
-  }
-
-  #contact-form h1 {
-    width: 327px;
-    height: 216px;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 44px;
-    text-align: center;
-    color: #172b4d;
-  }
-
-  #contact-form form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
-    width: 327px;
-    height: 330px;
-    padding: 0;
-  }
-
-  #contact-form form input {
-    width: 327px;
-    height: 48px;
-    border: 0;
-    border-bottom: 1px solid #dbd8d7;
-    color: #979493;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-
-  #contact-form form textarea {
-    width: 327px;
-    height: 114px;
-    background: #fbf8f7;
-    padding: 12px;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
-    color: #3c3a39;
-    border: none;
   }
 
   footer {
@@ -1148,7 +1085,7 @@ header nav {
   .nav-menu ul li {
     display: block;
     height: 56px;
-    border-bottom: 1px solid #6F6C6B;
+    border-bottom: 1px solid #6f6c6b;
     width: 100%;
     padding: 7px;
     text-align: left;
@@ -1163,7 +1100,7 @@ header nav {
     font-size: 32px;
     line-height: 44px;
     text-align: left;
-    color: #FFF5E1;
+    color: #fff5e1;
   }
 
   .socials-container ul {
@@ -1268,7 +1205,7 @@ header nav {
   }
 
   .close i::before {
-    color: #67798E;
+    color: #67798e;
     font-size: 20px;
   }
 
@@ -1701,9 +1638,73 @@ header nav {
     color: #fff;
   }
 
+  #contact-form {
+    position: absolute;
+    top: 6185px;
+    width: 375px;
+    height: 844px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 0 120px;
+    text-align: center;
+    gap: 58px;
+  }
+
+  #contact-form h1 {
+    width: 327px;
+    height: 216px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    color: #172b4d;
+  }
+
+  #contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: 327px;
+    height: 330px;
+    padding: 0;
+  }
+
+  #contact-form form input {
+    width: 327px;
+    height: 48px;
+    border: 0;
+    border-bottom: 1px solid #dbd8d7;
+    color: #979493;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  #contact-form form textarea {
+    width: 327px;
+    height: 114px;
+    background: #fbf8f7;
+    padding: 12px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #3c3a39;
+    border: none;
+  }
+
   #contact-form form button:hover {
     background-color: #fff5e1;
     border: 1px solid #f55800;
     color: #f55800;
   }
 }
+s
