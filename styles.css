@@ -1167,6 +1167,13 @@ header nav {
     background-color: #fff5e1;
     border: 1px solid #f55800;
     color: #f55800;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    align-items: center;
+    left: 0;
   }
 }
 
