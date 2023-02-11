@@ -71,107 +71,50 @@
             <img src="images/Img Placeholder (2).png" class="image1" alt="project card">
             <img src="images/Img Placeholder.png" class="image2" alt="project card">
             <div class="description-block">
-                <h1>Multi-Post Stories</h1>
+                <h3>Multi-Post Stories</h3>
                 <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-                <nav class="list">
-                    <ul class="nav-list">
+                <nav >
+                    <ul>
                         <li>css</li>
                         <li>html</li>
                         <li>bootstrap</li>
                         <li>Ruby</li>
                     </ul>
                 </nav>
-                <button type="button">See Project</button>
+                <button class="story-button" type="button">See Project</button>
             </div>
         </div>
         <div class="grid-column">
-            <div class="item1" >
-                <div class="item-block">
-                    <h1>Profesional Art Printing Data</h1>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                    <nav>
-                        <ul>
-                        <li>html</li>
-                        <li>bootstrap</li>
-                        <li>Ruby</li>
-                        </ul>
-                    </nav>
-                </div>
-                <button class="item-button1" type="button">See Project</button>
-            </div>
-            <div class="item2">
-                <div class="item-block">
-                    <h1>Profesional Art Printing Data</h1>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                    <nav>
-                        <ul>
-                        <li>html</li>
-                        <li>bootstrap</li>
-                        <li>Ruby</li>
-                        </ul>
-                    </nav>
-                </div>
-                <button class="item-button" type="button">See Project</button>
-            </div>            
-            <div class="item3">
-                <div class="item-block">
-                    <h1>Profesional Art Printing Data</h1>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                    <nav>
-                        <ul>
-                        <li>html</li>
-                        <li>bootstrap</li>
-                        <li>Ruby</li>
-                        </ul>
-                    </nav>
-                </div>
-                <button class="item-button" type="button">See Project</button>
-            </div>            
-            <div class="item4">
-                <div class="item-block">
-                    <h1>Profesional Art Printing Data</h1>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                    <nav>
-                        <ul>
-                        <li>html</li>
-                        <li>bootstrap</li>
-                        <li>Ruby</li>
-                        </ul>
-                    </nav>
-                </div>
-                <button class="item-button" type="button">See Project</button>
-            </div>
-            <div class="item5">
-                <div class="item-block">
-                    <h1>Profesional Art Printing Data</h1>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                    <nav>
-                        <ul>
-                        <li>html</li>
-                        <li>bootstrap</li>
-                        <li>Ruby</li>
-                        </ul>
-                    </nav>
-                </div>
-                <button class="item-button" type="button">See Project</button>
-            </div>
-            <div class="item6">
-                <div class="item-block">
-                    <h1>Profesional Art Printing Data</h1>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                    <nav>
-                        <ul>
-                        <li>html</li>
-                        <li>bootstrap</li>
-                        <li>Ruby</li>
-                        </ul>
-                    </nav>
-                </div>
-                <button class="item-button" type="button">See Project</button>
-            </div>
         </div>
     </div>
 </section>
+    <section id="popup-window">
+        <div id="popup-window-details">
+            <button id="close-popup">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div id="project-details">
+                <h3 id="project-name"></h3>
+                 <nav>
+                    <ul id="project-technologies">
+                    </ul>
+                </nav>
+                <img id="project-image" src=" " alt=" ">
+                <p id="project-description"></p>
+                
+               <a href="https://unleashedicon.github.io/personal-portfolio-project/"rel="noopener" target="_blank">
+                <button id="project-live" target="_blank">See live
+                    <img src="images/see live.png" alt="liveicon">
+                </button>
+            </a>
+                <a href="https://github.com/Unleashedicon/personal-portfolio-project" rel="noopener" target="_blank">
+                <button id="project-source" target="_blank">See Source
+                    <img src="images/github2.0.png" alt="githubicon">
+                </button>
+            </a>
+            </div>
+        </div>
+    </section>
 <section id="about-me">
     <div class="about">
         <h1>About me</h1>
@@ -220,6 +163,7 @@
   <form action="https://formspree.io/f/xbjedrnz" method="post">
     <input type="text" id="name" name="name" maxlength="30" placeholder="Full name" aria-label="please Enter full Name" class="fullname" required>
     <input type="email" id="email" name="email" placeholder="Email address" aria-label="Please Enter Email" required>
+    <div id="errormessage" style="color: rgb(201, 33, 33); display: none;"></div>
     <textarea id="message" name="message" maxlength="500" rows="10" cols="30" placeholder="Enter text here" aria-label="Please Enter Text Here" required></textarea>
     <button type="submit">Get in touch</button>
 </form>
