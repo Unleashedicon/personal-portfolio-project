@@ -70,27 +70,6 @@ my project is a simple HTML and CSS page whose primary goal is is to master all 
 ### Tech Stack <a name="tech-stack"></a>
 
 
-<details>
-  <summary>Client : HTML and CSS</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server: None</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database: None</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
@@ -208,6 +187,15 @@ Example:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+👤 **Author2**
+
+- GitHub: [@githubhandle](https://github.com/torobucci)
+- Twitter: [@twitterhandle](https://twitter.com/KipkuruiKelvin3e)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kelvin-kipkurui-7b50b8252/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
@@ -261,12 +249,15 @@ I would like to thank microverse community for this project it has been really h
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+You can find details of the license in [this file](https://github.com/Unleashedicon/personal-portfolio-project/blob/mobile-menu/license)
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
