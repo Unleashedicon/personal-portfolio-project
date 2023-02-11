@@ -127,7 +127,6 @@ for (let i = 0; i < project.length; i += 1) {
     item.innerText = technology;
     ultech.appendChild(item);
   });
-  
   const button = document.createElement('button');
   button.textContent = 'see project';
   if (projectelements.className === 'item1') {
