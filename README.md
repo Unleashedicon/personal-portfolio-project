@@ -29,7 +29,6 @@ After you're finished please remove all the comments and instructions!
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
 
-  <h3><b>Microverse README Template</b></h3>
 
 </div>
 
@@ -61,7 +60,6 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 personal-portfolio <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
 
 my project is a simple HTML and CSS page whose primary goal is is to master all of the tools and best practices learnt. 
 
@@ -75,7 +73,7 @@ my project is a simple HTML and CSS page whose primary goal is is to master all 
 ### Key Features <a name="key-features"></a>
 
 
-- **Setting up a "Hello world" repository using Git, which will serve as a foundation for version control and collaboration in future projects.**
+- **Setting up a "pop-up project" repository using Git, which will serve as a foundation for version control and collaboration in future projects.**
 - **Implementing best practices for file structure, naming conventions, and commenting, to ensure code readability and maintainability**
 - **Familiarizing with the tools and workflow that will be used in future projects, so that you can work more efficiently and effectively.**
 
