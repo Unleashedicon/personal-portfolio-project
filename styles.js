@@ -248,22 +248,6 @@ const closeButton = document.getElementById('close-popup');
 closeButton.addEventListener('click', () => {
   document.getElementById('popup-window').style.display = 'none';
 });
-
-if (!buttonclicked) {
-  document.getElementById('popup-window').style.display = 'none';
-}
-const form = document.querySelector('form');
-const email = document.querySelector("input[type = 'email']");
-const errormessage = document.querySelector('#errormessage');
-form.addEventListener('submit', (event) => {
-  event.preventDefault();
-  if (email.value.toLowerCase() !== email.value) {
-    errormessage.innerHTML = 'The email must be in lower case';
-    errormessage.style.display = 'block';
-  } else {
-    form.submit();
-  }
-});
 const form = document.querySelector('form');
 const email = document.querySelector("input[type = 'email']");
 const errormessage = document.querySelector('#errormessage');
