@@ -498,13 +498,16 @@ header nav {
   }
 
   #popup-window {
-    width: 100%;
-    left: 0;
-    right: 0;
+    position: fixed;
     top: 0;
-    bottom: 0;
-    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
-    z-index: 999;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: rgba(151, 148, 147, 0.8);
+    z-index: 2;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
   }
 
   #popup-window-details {
@@ -533,17 +536,24 @@ header nav {
     color: #172b4d;
     margin-top: 10px;
     margin-right: 10px;
+    margin-bottom: 15px;
   }
 
   #project-image {
     float: left;
     width: 50%;
+    height: 350px;
   }
 
   #project-description {
     float: right;
-    width: 50%;
+    width: 424px;
+    height: 336px;
+    color: #344563;
     font-family: 'Inter', sans-serif;
+    position: absolute;
+    top: 150px;
+    right: 5px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -565,6 +575,14 @@ header nav {
     color: #fff;
     border: 0;
     cursor: pointer;
+  }
+
+  .popup-button {
+    position: absolute;
+    display: flex;
+    bottom: 20px;
+    right: 100px;
+    gap: 20px;
   }
 
   #project-source {
@@ -1076,6 +1094,11 @@ header nav {
     font-size: 13px;
   }
 
+  #errormessage {
+    color: rgb(201, 33, 33); 
+    display: none;
+  }
+
   #contact-form {
     position: absolute;
     top: 3774px;
@@ -1167,6 +1190,13 @@ header nav {
     background-color: #fff5e1;
     border: 1px solid #f55800;
     color: #f55800;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    align-items: center;
+    left: 0;
   }
 }
 
@@ -1663,15 +1693,16 @@ header nav {
   }
 
   #popup-window {
-    width: 343px;
-    height: 628px;
     position: fixed;
-    background: #fff;
-    top: 40px;
-    left: 15px;
-    padding: 16px;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: rgba(151, 148, 147, 0.8);
+    z-index: 2;
     box-sizing: border-box;
-    z-index: 999;
+    display: flex;
+    justify-content: space-around;
   }
 
   #project-name {
@@ -1686,17 +1717,33 @@ header nav {
     color: #172b4d;
   }
 
+  .popup-button {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+  }
+
   #project-details {
     gap: 12px;
     height: 610px;
+    width: 323px;
+    background: #fff;
+    position: absolute;
+    top: 40px;
+    padding: 10px;
+    left: 20px;
   }
 
   #project-description {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 24px;
+    color: #344563;
   }
 
   #project-live {
@@ -1745,8 +1792,8 @@ header nav {
   #close-popup {
     cursor: pointer;
     position: absolute;
-    top: 30px;
-    right: 30px;
+    top: 10px;
+    right: 7px;
     background: #fff;
     border: 0;
   }
@@ -1946,6 +1993,11 @@ header nav {
     font-size: 17px;
     line-height: 24px;
     color: #fff;
+  }
+
+    #errormessage {
+    color: rgb(201, 33, 33); 
+    display: none;
   }
 
   #contact-form {
