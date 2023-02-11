@@ -127,7 +127,6 @@ for (let i = 0; i < project.length; i += 1) {
     item.innerText = technology;
     ultech.appendChild(item);
   });
-
   const button = document.createElement('button');
   button.textContent = 'see project';
   if (projectelements.className === 'item1') {
@@ -248,6 +247,10 @@ const closeButton = document.getElementById('close-popup');
 closeButton.addEventListener('click', () => {
   document.getElementById('popup-window').style.display = 'none';
 });
+
+if (!buttonclicked) {
+  document.getElementById('popup-window').style.display = 'none';
+}
 const form = document.querySelector('form');
 const email = document.querySelector("input[type = 'email']");
 const errormessage = document.querySelector('#errormessage');
