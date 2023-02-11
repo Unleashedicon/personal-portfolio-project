@@ -132,8 +132,9 @@ for (let i = 0; i < project.length; i += 1) {
   button.textContent = 'see project';
   if (projectelements.className === 'item1') {
     button.className = 'item-button1';
+  } else {
+    button.className = 'item-button';
   }
-  button.className = 'item-button';
   button.type = 'button';
   projectelements.appendChild(button);
 }
@@ -251,3 +252,15 @@ closeButton.addEventListener('click', () => {
 if (!buttonclicked) {
   document.getElementById('popup-window').style.display = 'none';
 }
+const form = document.querySelector('form');
+const email = document.querySelector("input[type = 'email']");
+const errormessage = document.querySelector('#errormessage');
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  if (email.value.toLowerCase() !== email.value) {
+    errormessage.innerHTML = 'The email must be in lower case';
+    errormessage.style.display = 'block';
+  } else {
+    form.submit();
+  }
+});
