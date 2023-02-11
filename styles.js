@@ -264,3 +264,15 @@ form.addEventListener('submit', (event) => {
     form.submit();
   }
 });
+const form = document.querySelector('form');
+const email = document.querySelector("input[type = 'email']");
+const errormessage = document.querySelector('#errormessage');
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  if (email.value.toLowerCase() !== email.value) {
+    errormessage.innerHTML = 'The email must be in lower case';
+    errormessage.style.display = 'block';
+  } else {
+    form.submit();
+  }
+});
