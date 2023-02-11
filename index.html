@@ -5,11 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kelvin's Portfolio</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <script src="styles.js"></script>
     <script src="https://kit.fontawesome.com/0f56b98a6f.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <div class="portfolio">
+    <section id="portfolio">
         <header class="details">
             <div class="name">
                 <h1 class="inside-name">Kelvin</h1>
@@ -20,10 +19,10 @@
                     <i class="fa-solid fa-xmark"></i>
                 </button>
                 <ul>
-                       <li><a href="#" class="item-home">Portfolio</a></li>
-                        <li><a href="#" class="item-about">About</a></li>
-                        <li><a href ="#"class="item-contact">Contact</a></li>
-                        <li><a href="#"class="item-email">
+                       <li><a href="#portfolio" class="item-home">Portfolio</a></li>
+                        <li><a href="#about-me" class="item-about">About</a></li>
+                        <li><a href ="#contact-form"class="item-contact">Contact</a></li>
+                        <li><a href="https://unleashedicon.github.io/personal-portfolio-project/"class="item-email">
                             <img src="images/Disabled.png"alt="Disabled">
                         </a></li>
                        
@@ -72,108 +71,51 @@
             <img src="images/Img Placeholder (2).png" class="image1" alt="project card">
             <img src="images/Img Placeholder.png" class="image2" alt="project card">
             <div class="description-block">
-                <h1>Multi-Post Stories</h1>
+                <h3>Multi-Post Stories</h3>
                 <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-                <nav class="list">
-                    <ul class="nav-list">
+                <nav >
+                    <ul>
                         <li>css</li>
                         <li>html</li>
                         <li>bootstrap</li>
                         <li>Ruby</li>
                     </ul>
                 </nav>
-                <button type="button">See Project</button>
+                <button class="story-button" type="button">See Project</button>
             </div>
         </div>
         <div class="grid-column">
-            <div class="item1" >
-                <div class="item-block">
-                    <h1>Profesional Art Printing Data</h1>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                    <nav>
-                        <ul>
-                        <li>html</li>
-                        <li>bootstrap</li>
-                        <li>Ruby</li>
-                        </ul>
-                    </nav>
-                </div>
-                <button class="item-button1" type="button">See Project</button>
-            </div>
-            <div class="item2">
-                <div class="item-block">
-                    <h1>Profesional Art Printing Data</h1>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                    <nav>
-                        <ul>
-                        <li>html</li>
-                        <li>bootstrap</li>
-                        <li>Ruby</li>
-                        </ul>
-                    </nav>
-                </div>
-                <button class="item-button" type="button">See Project</button>
-            </div>            
-            <div class="item3">
-                <div class="item-block">
-                    <h1>Profesional Art Printing Data</h1>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                    <nav>
-                        <ul>
-                        <li>html</li>
-                        <li>bootstrap</li>
-                        <li>Ruby</li>
-                        </ul>
-                    </nav>
-                </div>
-                <button class="item-button" type="button">See Project</button>
-            </div>            
-            <div class="item4">
-                <div class="item-block">
-                    <h1>Profesional Art Printing Data</h1>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                    <nav>
-                        <ul>
-                        <li>html</li>
-                        <li>bootstrap</li>
-                        <li>Ruby</li>
-                        </ul>
-                    </nav>
-                </div>
-                <button class="item-button" type="button">See Project</button>
-            </div>
-            <div class="item5">
-                <div class="item-block">
-                    <h1>Profesional Art Printing Data</h1>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                    <nav>
-                        <ul>
-                        <li>html</li>
-                        <li>bootstrap</li>
-                        <li>Ruby</li>
-                        </ul>
-                    </nav>
-                </div>
-                <button class="item-button" type="button">See Project</button>
-            </div>
-            <div class="item6">
-                <div class="item-block">
-                    <h1>Profesional Art Printing Data</h1>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                    <nav>
-                        <ul>
-                        <li>html</li>
-                        <li>bootstrap</li>
-                        <li>Ruby</li>
-                        </ul>
-                    </nav>
-                </div>
-                <button class="item-button" type="button">See Project</button>
-            </div>
         </div>
     </div>
 </section>
-<section class="about-me">
+    <section id="popup-window">
+        <div id="popup-window-details">
+            <button id="close-popup">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div id="project-details">
+                <h3 id="project-name"></h3>
+                 <nav>
+                    <ul id="project-technologies">
+                    </ul>
+                </nav>
+                <img id="project-image" src=" " alt=" ">
+                <p id="project-description"></p>
+                
+               <a href="https://unleashedicon.github.io/personal-portfolio-project/"rel="noopener" target="_blank">
+                <button id="project-live" target="_blank">See live
+                    <img src="images/see live.png" alt="liveicon">
+                </button>
+            </a>
+                <a href="https://github.com/Unleashedicon/personal-portfolio-project" rel="noopener" target="_blank">
+                <button id="project-source" target="_blank">See Source
+                    <img src="images/github2.0.png" alt="githubicon">
+                </button>
+            </a>
+            </div>
+        </div>
+    </section>
+<section id="about-me">
     <div class="about">
         <h1>About me</h1>
         <p>Hello I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hestiate to contact me.</p>
@@ -216,7 +158,7 @@
     </div>
     </div>
 </section>
-<div class="contact-form">
+<section id="contact-form">
     <h1>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h1>
   <form action="https://formspree.io/f/xbjedrnz" method="post">
     <input type="text" id="name" name="name" maxlength="30" placeholder="Full name" aria-label="please Enter full Name" class="fullname" required>
@@ -224,7 +166,7 @@
     <textarea id="message" name="message" maxlength="500" rows="10" cols="30" placeholder="Enter text here" aria-label="Please Enter Text Here" required></textarea>
     <button type="submit">Get in touch</button>
 </form>
-</div>
+</section>
 <footer>
     <ul>
         <li><a href="#" class="github">
@@ -244,5 +186,7 @@
          </a></li>
      </ul>
 </footer>
+<script src="styles.js"></script>
+</section>
   </body>
   </html>
