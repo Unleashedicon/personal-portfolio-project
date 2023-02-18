@@ -253,6 +253,7 @@ I would like to thank microverse community for this project it has been really h
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
+I want to give credit to the author for this project you can find the details in [this link] (https://creativecommons.org/licenses/by-nc/4.0/)
 
 This project is [MIT](./LICENSE) licensed.
 You can find details of the license in [this file](https://github.com/Unleashedicon/personal-portfolio-project/blob/mobile-menu/license)
